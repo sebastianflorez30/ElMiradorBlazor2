@@ -1,9 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ElMirador.Model\ElMirador.Modelo.csproj" />
+    <ProjectReference Include="..\ElMirador.Repositorio\ElMirador.Repositorio.csproj" />
+    <ProjectReference Include="..\ElMiradorDTO\ElMiradorDTO.csproj" />
+    <ProjectReference Include="..\ElMiradorUtilidades\ElMiradorUtilidades.csproj" />
+  </ItemGroup>
 
 </Project>
